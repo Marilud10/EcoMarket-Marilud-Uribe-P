@@ -1,0 +1,30 @@
+.hero{
+    background-image: url(../Img/Frase\ responsable.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    border: 4px solid white;
+    border-radius: 20px;
+
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.4);
+
+    overflow: hidden;
+    align-items:center;
+
+    text-align:center;
+    color:rgb(28, 56, 40);
+}
+
+.hero-texto h2{
+    font-size:50px;
+    font-style:oblique;
+}
+
+.productos{
+    padding:50px;
+}
+
+.card img{
+    width: 100%;
+    border-radius:10px;
+}

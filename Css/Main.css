@@ -1,0 +1,19 @@
+body {
+    background-image: url(../Img/fondo.jpg);
+
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items:center;
+    color: rgb(2, 27, 6);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.catalogo {
+    background-image: url(../Img/FondoCatalogo.jpg);
+    border-top: 10px;
+
+}
+
