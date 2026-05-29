@@ -13,6 +13,8 @@
 
     text-align:center;
     color:rgb(28, 56, 40);
+    
+    animation: flotar 3s infinite ease-in-out;
 }
 
 .hero-texto h2{

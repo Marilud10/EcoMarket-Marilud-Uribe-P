@@ -6,9 +6,11 @@ body {
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     align-items:center;
-    color: rgb(2, 27, 6);
+    color: rgb(19, 207, 12);
     border-radius: 20px;
     text-align: center;
+    text-shadow:
+    2px 2px 5px rgba(4, 20, 4, 0.5);
 }
 
 .catalogo {
@@ -17,19 +19,119 @@ header {
 
 }
 
-.contacto {
-    background-image: url(../Img/Iconos/1.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 40px;
-    border: 4px solid white;
+.contacto{
+    padding:50px;
+
+    display:flex;
+    flex-direction:column;
+
+    align-items:center;
+}
+
+.contacto form{
+    width:400px;
+
+    display:flex;
+    flex-direction:column;
+
+    gap:20px;
+}
+
+.contacto input,
+.contacto textarea{
+
+    padding:15px;
+
+    border-radius:10px;
+
+    border:1px solid #129406;
+}
+
+.contacto textarea{
+    height:150px;
+}
+
+
+.nosotros-logo {
+    background-image: url(../Img/Iconos/iconoNosotros.jpg) ;
+    padding-top: 10Px;
     border-radius: 20px;
+    align-items:flex-end;
+    font-family:'Times New Roman', Times, serif;
+    color: #072c15;
+}
+
+footer{
+
+    background-image: url(../Img/Iconos/Footer.jpg);
+    color:rgb(21, 134, 31);
+    margin-top:50px;
+}
+
+.footer-container{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:10px;
+    padding:20px;
+
+}
+
+.footer-box h3{
+
+    margin-bottom:15px;
+    color:#125515;
+}
+
+.footer-box p{
+    margin:8px 0;
+}
+
+.footer-bottom{
+    text-align:center;
+    padding:20px;
+    border-top:1px solid #444;
+    border-radius: 20px;
+    background:#0b310d;}
+
+.containerNosotros {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:10px;
+    padding:20px;
+    background-color: #6ba177;
+    border-radius: 10px;
 
     box-shadow: 0px 5px 20px rgba(0,0,0,0.4);
 
     overflow: hidden;
-    align-items:center;
+   
 
-    text-align:center;
-    color:rgb(17, 32, 24);
+}
+.nosotros {
+    background-color: #f1bdda;
+    border-radius: 10px;
+    color: #124e24;
+    text-align: center;
+}
+.imgNosotros {
+    width: 70%;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.5s;
+
+    animation: flotar 3s infinite ease-in-out;
+}
+@keyframes flotar {
+
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-10px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
 }

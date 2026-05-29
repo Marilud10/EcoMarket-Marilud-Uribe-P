@@ -48,3 +48,73 @@
     border-radius:10px;
     cursor:pointer;
 }
+
+.contacto button{
+
+    padding:15px;
+
+    border:none;
+
+    background:#124915;
+
+    color:white;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:0.4s;
+}
+
+.contacto button:hover{
+
+    background:#06eb9e;
+
+    transform:translateY(-5px);
+}
+
+nav{
+    display:flex;
+
+    gap:30px;
+}
+
+nav a{
+
+    text-decoration:none;
+
+    color:white;
+
+    font-weight:bold;
+
+    transition:0.4s;
+}
+
+nav a:hover{
+
+    color:#81c784;
+
+}
+
+.imgNosotros {
+    width: 70%;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.5s;
+
+    animation: flotar 3s infinite ease-in-out;
+}
+@keyframes flotar {
+
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-10px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
