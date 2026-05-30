@@ -94,12 +94,13 @@ footer{
     background:#0b310d;}
 
 .containerNosotros {
-    display:grid;
+    display:flex;
     grid-template-columns:1fr 1fr 1fr;
     gap:10px;
     padding:20px;
-    background-color: #6ba177;
+    background-color: #c3eecd;
     border-radius: 10px;
+    padding-top: 20px;
 
     box-shadow: 0px 5px 20px rgba(0,0,0,0.4);
 
@@ -112,6 +113,7 @@ footer{
     border-radius: 10px;
     color: #124e24;
     text-align: center;
+    
 }
 .imgNosotros {
     width: 70%;
