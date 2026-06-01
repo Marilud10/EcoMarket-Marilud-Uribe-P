@@ -12,7 +12,10 @@
     cursor:pointer;
 
     transition:0.5s;
+
 }
+
+
 .hero button:hover{
 
     transform:translateY(-8px);
@@ -33,7 +36,7 @@
     text-align:center;
     color: aliceblue;
 
-    transition:0.5s;
+    transition:0.3s;
 }
 
 .card:hover{
@@ -68,7 +71,7 @@
 
 .contacto button:hover{
 
-    background:#06eb9e;
+    background:#eb0666;
 
     transform:translateY(-5px);
 }
