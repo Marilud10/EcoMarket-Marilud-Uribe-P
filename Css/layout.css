@@ -2,6 +2,9 @@
     background-image: url(../Img/Logo.jpg);
     border-radius: 10px;
     height: 250px;
+    width:100%;
+    max-width:900px;
+    margin:auto;
 }
 .container2 {
     padding: 1px;
@@ -21,8 +24,10 @@
 
 .menu{
     display: flex;
+    justify-content:center;
     gap: 20px;
     list-style: none;
+    flex-wrap:wrap;
     
 }
 .menu a{

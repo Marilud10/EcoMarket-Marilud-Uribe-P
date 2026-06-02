@@ -34,7 +34,7 @@ header {
     display:flex;
     flex-direction:column;
 
-    gap:20px;
+    gap: 10px;
 }
 
 .contacto input,
@@ -128,17 +128,13 @@ footer{
 
     animation: flotar 3s infinite ease-in-out;
 }
-@keyframes flotar {
 
-    0%{
-        transform: translateY(0px);
-    }
+.titulo-filtro {
+    color: rgb(6, 94, 21);
+    font-style: italic;
+}
 
-    50%{
-        transform: translateY(-10px);
-    }
-
-    100%{
-        transform: translateY(0px);
-    }
+img{
+    max-width:100%;
+    height:auto;
 }
