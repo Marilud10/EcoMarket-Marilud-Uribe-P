@@ -126,4 +126,26 @@
 }
 
 
+@media (max-width:768px){
+
+    .banner-promocion{
+        grid-template-columns:1fr 1fr;
+    }
+
+}@media (max-width:480px){
+
+    .banner-promocion{
+        grid-template-columns:1fr;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .banner-promocion h2{
+        font-size:28px;
+    }
+
+}
+
 
